@@ -28,8 +28,8 @@ const { NotImplementedError } = require('../extensions/index.js');
     }
     if(this.depth>this.maxdepth) this.maxdepth=this.depth;
     this.depth--;
-    return this.maxdepth;
-  }*/
+    return this.maxdepth;*/
+  }
 }
 module.exports = {
   DepthCalculator
